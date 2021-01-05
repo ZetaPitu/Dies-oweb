@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>ZetaPitugratis </title>
+      <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+   <link rel="icon" href="editorhtml/favicon.ico" />
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link href = "https://unpkg.com/aos@2.3.1/dist/aos.css" rel = "stylesheet"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <!-- <script src="/path/to/jquery.cookie.js"></script>-->
+  <link href="css/ziw.css" rel="stylesheet" />
+</head>
+<body>
+    
+    <header style="background-image: url('images/cabecera-1053197.jpg')">
+
+       
+           <div class="jumbotron text-center">
+            <div class="row web-sitios">
+                
+           
+            <h1 style="text-align:center;width:100%;">Su sitio web gratis</h1>
+            <div style="text-align:center;width:90%;margin-left:10%">
+             <p>Elija su dominio</p>
+
+          
+            <label for="whois_dominio" class="formWww">Solo letras minúsculas y numeros</label><div style="display:flex;margin-right: 15px;"> 
+            <input type="text" value="" onkeyup="this.value=comprobar(this.value)" id="dominio1" placeholder="Introduzca su web" style="width:80%;">
+               
+            <select name="whois_extension" id="extension">
+               <!-- <option value="zpt.es">.zpt.es</option>-->
+                <option value="ziw.es">.ziw.es</option>
+
+            </select>
+</div>   
+           <div>
+            <button id="ver" type="button" style="display:none" class="btn btn-danger normal">Ver web</button>            
+            <button id="editarweb" type="button" style="display:none" class="btn btn-danger normal">Editar web</button>       
+   
+            <button id="crear" type="button" class="btn btn-danger normal" data-toggle="modal" data-target="#crearweb">Crear web</button>
+            <button id="crear1" style="display:none" type="button" class="btn btn-danger normal" data-toggle="modal" data-target="#crearweb">Crear web</button>
+
+           </div>
+ </div>
+            </div>
+           </div>
+    </header>
+    
+    
+
+<!-- modal -->
+
+<div class="modal fade" id="crearweb" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content form-web">
+     <div class="modal-body">
+
+            <form id="form1" style="text-align: center" method="post" action="php/dns.php" onsubmit="return validarform(this)" target="_blank">
+                <div>
+                    Su nombre:<br>
+                    <input type="text" name="nombre" required="required">
+                    <br>
+                    E-mail:<br>
+                    <input type="email" name="email" required="required">
+                    <br>
+                    Contraseña:<br>
+                    <input type="password" name="contra" required="required">
+                    <br>
+                    Repite Contraseña:<br>
+                    <input type="password" name="contra1" required="required">
+                    <br>
+                    <h1>Su web es</h1>
+                    <textarea id="info" style="width: 100%; overflow: hidden; font-weight: 600; font-size: x-large;" disabled="disabled" readonly="readonly"></textarea>
+                    <p>Recuerde estos datos y contraseñas Se le pedira para poder modificar la web</p>
+
+                </div>
+                <div class="modal-footer">
+                    <button id="crearwebfinal" class="btn btn-danger normal">Crear web</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+
+            </form>
+            </div>
+          </div>
+        </div>
+    </div>
+
+ <div class="modal fade" id="ayudame" role="dialog">
+        <div class="modal-dialog">
+            <div>Ayudame</div>
+        </div>
+    </div>
+
+
+  
+<!--Script-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"> </script>
+      <script src="script/inicio.js"></script>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v5.0&appId=201350997125108&autoLogAppEvents=1"></script>
+ 
+</body>
+</html>

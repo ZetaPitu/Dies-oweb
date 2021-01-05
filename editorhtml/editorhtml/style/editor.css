@@ -1,0 +1,320 @@
+﻿body {
+    
+    /*overflow:hidden;*/
+   
+}
+/* Traductor*/
+a.gflag {
+    vertical-align: middle;
+    font-size: 16px;
+    padding: 1px 0;
+    background-repeat: no-repeat;
+    background-image: url(//gtranslate.net/flags/16.png);
+}
+
+    a.gflag img {
+        border: 0;
+    }
+
+    a.gflag:hover {
+        background-image: url(//gtranslate.net/flags/16a.png);
+    }
+
+#goog-gt-tt {
+    display: none !important;
+}
+
+.goog-te-banner-frame {
+    display: none !important;
+}
+
+.goog-te-menu-value:hover {
+    text-decoration: none !important;
+}
+
+body {
+    top: 0 !important;
+}
+
+#google_translate_element2 {
+    display: none !important;
+}
+
+/* Fin Traductor*/
+
+
+.lateral-izquierda {
+    overflow: hidden;
+    width: 100%;
+    margin-left: 10%;
+    text-align: center;
+    padding: 0;
+    background-color: #f00;
+}
+.titulo {
+   text-align:center;
+   width:100%;
+}
+.select {
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    margin: 3px;
+}
+
+#dominio {
+    padding: 0;
+    cursor: pointer;
+    background-color: #aaa;
+    color: #270202;
+}
+#dominio::before {
+        content: "🌐 Ver https://";
+  }
+#dominio::after {
+        content: " 🌐";
+
+    }
+img{
+    cursor:pointer
+}
+.btn-info-lateral {
+    margin: 2%;   
+    overflow: hidden;
+    color: #fff;
+    background-color: #17a2b8;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    width: 96%;
+    padding:0;
+}
+.btn-info-menu:hover{
+    text-align: center;
+    margin: 2%;
+    margin-left: 5%;
+    overflow: hidden;
+    color: #fff;
+    background-color: #17a2b8;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+    width: 90%;
+    padding: 0;
+}
+.flotante {
+    max-width: 200px;
+
+}
+@media (min-width: 800px){
+    .navbar-expand-sm .navbar-toggler {
+        display: none;
+    }
+    .navbar-expand-sm .navbar-collapse {
+  
+        display: flex !important;      
+        flex-basis: auto;
+    }
+}
+div[class*="col-"] {
+}
+.icon-pie {
+    width: 30px;
+    height: 30px;
+}
+.cuadritos-colores {
+    width: 15px;
+    height: 15px;
+    margin:2px;
+    border: inset 1px #000000;
+    cursor: pointer
+}
+footer {
+    background-color: #9d7e53;
+    margin-bottom: -60px;
+}
+.tapadera {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 4444884;
+    cursor:pointer;
+    content:"Pulse aqui para modificar";
+    overflow:hidden;
+}
+.video-responsive {
+    text-align: center;
+    position: relative;
+    padding-bottom: 56.25%; /* 16/9 ratio */
+    height: 0;
+    overflow: hidden;
+}
+video-final ,.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .subpage {
+        background-color: #000;
+    }
+
+    .textcolor {
+        background-color: aqua;
+    }
+
+    div.jHtmlArea .ToolBar ul li a.custom_disk_button {
+        background: url(images/disk.png) no-repeat;
+        background-position: 0 0;
+    }
+
+    div.jHtmlArea .ToolBar ul {
+      
+        height: 24px;
+    }
+
+
+    div.jHtmlArea {
+        background-color: #00a;
+        border: solid 1px #ccc;
+    }
+
+    .jHtmlArea {
+        width: 100%;
+    }
+
+    #mieditor, #test, #test1, #test2, #test3, #test4 {
+        background-color: #eee;
+        height: 85vh;
+        width: 99%;    
+        border: outset 3px #000000;
+    }
+
+    center {
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    .menuprincipal {
+        min-height: 30px;
+        color: #fff;
+        background-color: #07f229;
+        margin: 0px;
+    }
+    .navbar{
+        padding:0;
+    }
+    @media screen and (max-width: 1200px) {
+     
+      .titulo  , .btn-info-lateral {
+            font-size: 0.9em;
+        }
+        center {
+            width: 100%;
+            margin-left: 0;
+        }
+
+        div.jHtmlArea .ToolBar ul {
+            zoom: 1;
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+        #vercomo{
+            display:none;
+        }
+        .titulo, .btn-info-lateral {
+            font-size: 0.8em;
+        }
+        center {
+            width: 100%;
+            margin-left: 0;
+        }
+
+        div.jHtmlArea .ToolBar ul {
+        }
+    }
+@media screen and (max-width: 800px) {
+    .titulo, .btn-info-lateral {
+        font-size: 0.7em;
+    }
+}
+@media screen and (max-width: 600px) {
+    .flotante {
+        max-width: 200px;
+        position: absolute;
+        z-index: 2222;
+    }
+    #dominio {
+
+        cursor: pointer;
+        background-color: rgba(0,0,0,0);
+        color: rgba(255,255,255,.5);
+    }
+
+        #dominio::before {
+            content: "https://";
+        }
+
+        #dominio::after {
+            content: "";
+        }
+    .lateral-izquierda {
+      
+        width: 98%;
+        margin-left: 5%;
+
+    }
+    .titulo,.btn-info-lateral {
+        font-size: 1.2em;
+    }
+}
+    @media screen and (max-width: 1200px) and (min-width: 737px) {
+        body {
+            min-width: 700px;
+            
+        }
+    }
+
+    div.jHtmlArea .ToolBar ul {
+    }
+.container {
+  /*
+ overflow:hidden;
+  */ 
+    margin:0;
+    max-width: 100%;
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+       max-width: 100%;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+       max-width: 100%
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width:100%; 
+    }
+}
+
+@media (min-width: 576px) {
+
+    .container {
+        max-width: 100%;
+    }
+}
+
+.container {
+    width: 100%;
+    padding-right: 0px; 
+    padding-left: 0px; 
+    margin-right: auto;
+    margin-left: auto; 
+}

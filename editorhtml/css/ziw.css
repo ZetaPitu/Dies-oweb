@@ -1,0 +1,117 @@
+﻿body {
+    background-color:#e0e0e0;
+    
+}
+
+.menu{
+    padding:5px;
+ width:100%;
+ background-color:#1615a3;
+}
+header{
+    background-image:url('../images/base674.png');
+
+}
+footer {
+    background-color: #a0a0a0;
+    padding:40px;
+    margin-top:50px;
+}
+.container {
+    overflow: hidden;
+}
+    .jumbotron {
+      background: url('../images/base674.png');
+}
+#buscar {
+    margin: 3px;
+}
+.web-sitios {
+    background-color: #4cff00cc;
+    border: outset 2px #808080;
+    border-radius:20px;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+}
+#dominio{
+
+    display:none;
+}
+.mipu {
+    margin: 1.66667rem 0px 0px;
+    padding: 5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    color: rgb(0, 33, 41);
+    font-family: &quot;
+    Brandon Text&quot;, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    orphans: 2;
+    text-align: center;
+    text-indent: 0px; 
+    text-transform: none;
+    white-space: normal;
+    widows: 2;
+    word-spacing: 0px; 
+    -webkit-text-stroke-width: 0px;
+    background-color: rgb(250, 250, 250);
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+.thumbnail img{
+    float:left;
+    width:100%;
+    margin-bottom:4px;
+
+}
+.icon-pie{
+
+
+    width:30px;
+    height:30px;
+}
+
+@media (max-width: 576px) {
+    .web-sitios {
+        
+
+        width: 96%;
+      
+        margin-left: 2%;
+    }
+
+
+}
+
+/*Formularios*/
+
+.form-web {
+     height: 80vh;
+     margin-top:3vh;
+}
+    .form-web iframe {
+        border:none;
+        margin: 1px;
+        width: 100%;
+        height:100%"
+    }
+
+
+
+@media (max-width: 576px) {
+    .form-web{
+        width:100%;
+        height:100vh;
+        
+    }
+}
+
+
+

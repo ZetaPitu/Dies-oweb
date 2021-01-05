@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^http://ziw.es*/.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http://ziw.es*$ [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp|zip)$ - [F,NC]

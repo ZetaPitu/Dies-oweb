@@ -1,0 +1,157 @@
+﻿
+
+
+
+body {
+    
+    /*overflow:hidden;*/
+   
+}
+iframe::after {
+    border-radius:40%;
+    background-color:aqua;
+    content:'✔';
+}
+::-moz-selection { /* Code for Firefox */
+    color: red;
+    background: yellow;
+}
+
+::selection {
+    color: red;
+    background: yellow;
+}
+*:hover {
+    border:double 2px #060668;
+}
+img{
+    cursor:pointer;
+}
+.tapadera {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 4444884;
+    cursor: pointer;
+    overflow:hidden;
+   
+}
+    .tapadera::before {
+        border: outset 3px #000;
+        font-size: 30px;
+        background-color: aqua;
+        color: red;
+        cursor: pointer;
+        content: "🌐Editar🌐";
+    }
+.div-pulsado {
+    border: double #000 6px;
+}
+.div-pulsado::before{
+    content:"🌐Editando";
+    color:#060668;
+    background-color:#ccc;
+    opacity:0.7;
+}
+.p-pulsado {
+    border: double red 6px;
+}
+.padre-pulsado {
+    border: outset #060668 6px;
+}
+.padre-pulsado::after {
+    position:absolute;
+    
+    content: "🌐Editando";
+    color: #060668;
+    background-color: #ccc;
+    opacity: 0.5;
+}
+footer {
+    /*   background-color:antiquewhite;
+    min-height:40px;
+    margin-bottom:-60px;*/
+}
+*[class*="col-"] {
+   /* border: double 3px #000000;*/
+    overflow: hidden;
+}
+span{
+
+    overflow:hidden;
+  /* height:100%;*/ 
+}
+.subpage {
+    background-color: #00ffff;
+}
+.textcolor{
+
+    background-color:aqua;
+}
+div.jHtmlArea .ToolBar ul li a.custom_disk_button {
+    background: url(images/disk.png) no-repeat;
+    background-position: 0 0;
+}
+div.jHtmlArea .ToolBar ul {
+    zoom: 1.5; 
+    height: 24px;
+}
+.ToolBar{
+
+    direction:rtl:
+}
+
+
+div.jHtmlArea {
+    background-color:#00a;
+    border: solid 1px #ccc;
+}
+
+.jHtmlArea {
+     width: 100%;
+}
+#mieditor, #test, #test1, #test2, #test3, #test4 {
+    background-color: #eee;
+    height: 80vh;
+    width: 110%;
+    margin-left:-5%;
+    border: outset 3px #000001;
+}
+
+#edit {
+    width: 96%;
+    margin-left: 2%;
+}
+
+.menuprincipal {
+    min-height:30px;
+    color:#fff;
+    background-color:#07f229;
+    margin:0px;
+}
+@media screen and (max-width: 1200px) {
+    #edit {
+        width: 100%;
+        margin-left: 0;
+    }
+    div.jHtmlArea .ToolBar ul {
+        zoom:1;
+    }
+
+}
+@media screen and (max-width: 1000px) {
+    edit {
+        width: 100%;
+        margin-left:0;
+    }
+    div.jHtmlArea .ToolBar ul {
+    }
+}
+@media screen and (max-width: 1200px) and (min-width: 737px) {
+    body {
+        /* min-width: 700px; */
+    }
+}
+
+div.jHtmlArea .ToolBar ul {
+}
