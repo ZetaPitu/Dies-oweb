@@ -1,4 +1,6 @@
 Lo primero para empezar el proyecto es el diseño de la pagina web de presentacion 
 index.html
 Mas adelante se prepara el modulo de creacion de dominio y editor web que requiere mas conocimientos
-y esta en el directorio 
+y esta en el directorio editorhtml que puedes mirar si quieres pero esta en proceso de consolidacion
+
+Ayuda y cambia el index.html para conseguir una web de presentacion atractiva y funcional
