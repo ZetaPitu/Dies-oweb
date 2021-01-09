@@ -3,7 +3,7 @@ Esta compuesto por tres partes
 1 La pagina web que se ofrece por defecto y es la que queremos modificar en este momento  https://github.com/ZetaPitu/Diseno-web/blob/master/index.html
 
 
-2 El programa y editor  que es https://ziw.es  Github https://github.com/ZetaPitu/Diseno-web/blob/master/index.html
+2 El programa y editor  que es https://ziw.es  Github https://github.com/ZetaPitu/Diseno-web/tree/master/editorhtml
 
 Lo primero para empezar el proyecto es el diseño de la pagina web de presentacion 
 index.html
