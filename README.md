@@ -26,3 +26,6 @@ Esta compuesto por tres partes
 
 
 2 El programa y editor  que es https://ziw.es  Github https://github.com/ZetaPitu/Diseno-web/tree/master/editorhtml
+
+Queremos hacer cambios para que se pueda ejecutar en servidores Tanto de PHP como Python
+Y tambien React y Node
