@@ -1,0 +1,17 @@
+Hablando un poco de Pyhton
+Python es un lenguaje de programación interpretado cuyo principal objetivo es tener un código legible, que cuando escribas un programa en Python parezca que estás escribiendo pseudo-código.
+
+Dentro de las características de Python encontramos:
+
+Sencillez de programación, ya hemos comentado que es la característica más básica, hacer programas sencillos de entender.
+Multiplataforma, tenemos versiones de Python para diferentes plataformas: Linux, Mac, Windows,…
+Interpretado, no tenemos que compilar el código fuente antes de ejecutarlo.
+Tipado dinámico, las variables no son declaradas con un tipo, si no que cogen el tipo atendiendo al valor que se les asigna.
+Orientación a objetos, se utilizar este paradigma de desarrollo que nos permite encapsular funcionalidades y datos en una clase.
+Extensión con librerías, existen múltiples librerías que permiten extender la funcionalidad básica del lenguaje y lo hace mucho más rico.
+Descargar Pyhton
+Nos podemos descargar Python desde https://www.python.org/downloads/. Simplemente tendremos que seleccionar la plataforma sobre la que lo queremos instalar: Mac, Windows, Linux/Unix,…
+
+Contamos con dos líneas de Python, la versión 2.x o la versión 3.x. Dependiendo de la que quieras instalar deberás de descargarte un fichero u otro.
+
+Una vez descargado solo tendremos que instalar el ejecutable, y ya tendremos Python instalado.
