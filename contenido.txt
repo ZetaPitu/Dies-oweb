@@ -11,3 +11,9 @@ Mas adelante se prepara el modulo de creacion de dominio y editor web que requie
 y esta en el directorio editorhtml que puedes mirar si quieres pero esta en proceso de consolidacion
 
 Ayuda y cambia el index.html para conseguir una web de presentacion atractiva y funcional
+
+Servidor principal codigo PHP 
+Puedes añadir:
+Lenguajes de programación (JavaScript, Python)
+Gestión de bases de datos (MySQL, MongoDB)
+Infraestructuras (React)
